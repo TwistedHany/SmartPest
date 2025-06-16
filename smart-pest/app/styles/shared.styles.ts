@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-export const styles = StyleSheet.create({
+export const sharedStyles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
@@ -18,7 +18,18 @@ export const styles = StyleSheet.create({
   },
   body: {
     flex: 1,
-    backgroundColor: '#fff',
+    padding: 20,
+    alignItems: 'center',
+  },
+  sectionTitle: {
+    fontSize: 16,
+    fontWeight: '600',
+    marginBottom: 10,
+  },
+  caption: {
+    fontSize: 14,
+    color: '#555',
+    textAlign: 'center',
   },
   bottomNav: {
     flexDirection: 'row',
